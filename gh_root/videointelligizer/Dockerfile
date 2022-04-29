@@ -6,4 +6,4 @@ RUN apt update && apt upgrade -y
 RUN apt install git -y
 
 WORKDIR /usr/share/nginx
-COPY ./videointelligizer/ /usr/share/nginx/html/
+COPY ./ /usr/share/nginx/html/
